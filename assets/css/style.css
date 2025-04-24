@@ -27,12 +27,14 @@ header {
     align-items: baseline;
 }
 
-h1 {
+h1, h2, h3 {
     font-family: 'oswald', sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
     color: #252525;
 }
+
+
 #menu {
     list-style-type: none;
     font-size: 110%;
@@ -76,11 +78,28 @@ main {
     flex: 1 0 auto;
     margin-top: 40px;
 }
+/* section id in main */
 #hero {
     width: 100%;
     height: 600px;
     background-color: blue;
     background: url('../images/hero-image.webp') no-repeat center center/cover;
+    position: relative;
+}
+/* div id in section */
+#cover-text {
+    background-color: rgba(241, 100, 107, .7);
+    font-size: 130%;
+    position: absolute;
+    bottom: 30px;
+    width: 80%;
+    min-height: 200px;
+    padding-top: 20px;
+    padding-left: 15px;
+    color: #ffffff;
+}
+#cover-text > h2, #cover-text > h3 {
+    color: #ffffff;
 }
 /* footer */
 footer {
@@ -124,13 +143,22 @@ footer i {
     main {
         padding-top: 20px;;
     }
+    #cover-text {
+        width: 60%;
+        min-height: 130px;
+    }
    
         
 }
-@media screen and (min-width: 922px) {
+@media screen and (min-width: 992px) {
   #menu a:hover {
     border-bottom: 2px solid #3a3a3a;
          
+    }
+    #cover-text {
+        width: 40%;
+        right: 50px;
+        
     }
   
    
