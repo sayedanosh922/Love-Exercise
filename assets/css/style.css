@@ -90,10 +90,7 @@ footer ul {
     flex-direction: row;
     justify-content: space-between;
 }
-footer a {
-    width: 100%;
-    height: auto;
-}
+
 
 
 /* media query for tablets and larger screens (768px and up) */
