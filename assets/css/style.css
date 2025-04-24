@@ -80,7 +80,6 @@ main {
 }
 /* section id in main */
 #hero {
-    
     height: 600px;
     background-color: blue;
     background: url('../images/hero-image.webp') no-repeat center center/cover;
@@ -101,6 +100,20 @@ main {
 #cover-text > h2, #cover-text > h3 {
     color: #ffffff;
 }
+#why-join-us  {
+
+}
+.join {
+    border: 2px solid blue;
+    height: 300px;
+  
+}
+#why-join-us h2 {
+    font-size: 400%;
+    padding-left: 40px;
+    font-family: 'Oswald', sans-serif;
+}
+
 /* footer */
 footer {
     padding: 1rem 0;
@@ -115,13 +128,7 @@ footer i {
     font-size: 160%;
     padding: 5px;
 }
-#why-join-us {
 
-}
-.join {
-    border: 2px solid blue;
-    width: 100%;
-}
 
 
 
