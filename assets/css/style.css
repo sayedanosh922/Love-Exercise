@@ -80,15 +80,17 @@ main {
 }
 /* footer */
 footer {
-    background-color: blueviolet;
-    
-
+    padding: 1rem 0;
 }
 footer ul {
     list-style-type: none;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-evenly;
+}
+footer i {
+    font-size: 160%;
+    padding: 5px;
 }
 
 
