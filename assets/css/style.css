@@ -1,3 +1,15 @@
+/* asterisk to override default margins and paddings */
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    color: #3a3a3a;
+}
 /* header */
 header {
     background-color: aqua;
@@ -5,6 +17,9 @@ header {
 /* main */
 main {
     background-color: beige;
+    /* make main element grow as it contains main content */
+    flex: 1 0 auto;
+    
 }
 /* footer */
 footer {
