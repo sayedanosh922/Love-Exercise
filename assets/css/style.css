@@ -81,6 +81,18 @@ main {
 /* footer */
 footer {
     background-color: blueviolet;
+    
+
+}
+footer ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+footer a {
+    width: 100%;
+    height: auto;
 }
 
 
