@@ -83,13 +83,14 @@ footer {
     background-color: blueviolet;
 }
 
+
 /* media query for tablets and larger screens (768px and up) */
 @media (min-width: 768px) {
     nav {
         display: block;
         position: relative;
         box-shadow: none;
-        width: auto;
+        width: fit-content;
 
     }
     .nav-toggle-label {
@@ -99,7 +100,23 @@ footer {
         display: flex;
         flex-direction: row;
         gap: 1rem;
-        align-items: flex-end;
+        
     }
-
+    #menu li {
+        padding-left: 1rem;
+    } 
+    /* psuh main down from the header */
+    main {
+        padding-top: 20px;;
+    }
+   
+        
+}
+@media screen and (min-width: 922px) {
+  #menu a:hover {
+    border-bottom: 2px solid #3a3a3a;
+         
+    }
+  
+   
 }
