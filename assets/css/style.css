@@ -43,6 +43,15 @@ header a {
     text-decoration: none;
     color: inherit;
 }
+nav {
+    position: absolute;
+    background-color: #ffffff;
+    width: 100%;
+    left: 0;
+    padding: 0 1rem;
+    box-shadow: 0 2px 2px #3a3a3a;
+    display: none;
+}
 /* main */
 main {
     background-color: beige;
