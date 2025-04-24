@@ -75,9 +75,31 @@ main {
     background-color: beige;
     /* make main element grow as it contains main content */
     flex: 1 0 auto;
+    margin-top: 47px;
     
 }
 /* footer */
 footer {
     background-color: blueviolet;
+}
+
+/* media query for tablets and larger screens (768px and up) */
+@media (min-width: 768px) {
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: auto;
+
+    }
+    .nav-toggle-label {
+        display: none;
+    }
+    nav ul {
+        display: flex;
+        flex-direction: row;
+        gap: 1rem;
+        align-items: flex-end;
+    }
+
 }
