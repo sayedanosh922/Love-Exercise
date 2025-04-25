@@ -100,19 +100,31 @@ main {
 #cover-text > h2, #cover-text > h3 {
     color: #ffffff;
 }
-#why-join-us  {
-
-}
-.join {
-    border: 2px solid blue;
-    height: 300px;
-  
-}
 #why-join-us h2 {
-    font-size: 400%;
+    font-size: 350%;
     padding-left: 40px;
     font-family: 'Oswald', sans-serif;
+    
 }
+.join  {
+    margin-bottom: 20px; 
+}
+.join p {
+    margin-top: 20px;
+    font-size: 160%;
+    text-align: center;
+   
+}
+.join h3{
+    font-size: 220%;
+    border-bottom: 2px solid black;
+}
+.join i {
+    margin-left: 10px;
+    font-size: 200%;
+   
+}
+
 
 /* footer */
 footer {
