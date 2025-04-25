@@ -117,7 +117,7 @@ main {
 }
 .join h3{
     font-size: 220%;
-    border-bottom: 2px solid black;
+
 }
 .join i {
     margin-left: 10px;
@@ -185,8 +185,23 @@ footer i {
         width: 60%;
         min-height: 130px;
     }
-   
-    
+   .join-first, .join-second {
+    display: flex;
+    flex-direction: column;
+   }
+   .join-first {
+    align-items: flex-start
+   }
+   .join-second {
+    align-items: flex-end;
+   }
+   .join p {
+    text-align: unset;
+
+   }
+   .join p br {
+    display: none;
+   }
         
 }
 @media screen and (min-width: 992px) {
